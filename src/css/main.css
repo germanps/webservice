@@ -1,0 +1,62 @@
+
+*, html{
+    box-sizing: border-box;
+}
+*.*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+}
+ul{
+    /* list-style: none; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+.form-control,.btn{
+    border-radius: 0;
+}
+h1, h2, h3, h4, p, span, button, a{
+    font-family: 'Raleway', sans-serif;
+}
+.sq-container{
+    width: 90%;
+    margin: auto;
+}
+.sq-form-wrapper{
+    width: 480px;
+    margin: 3rem auto;
+}
+
+/* ==== Helper clases ==== */
+.sq-text{
+    color: #747474;
+}
+.sq-text-w{
+    color: #fff;
+}
+.sq-font{
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: tahoma;
+}
+.xs-text{
+    font-size: 1.3rem;
+    padding: 0.1rem .5rem;
+}
+.inline-block{
+    display: inline;
+}
+.light{color: red; font-weight: bold;}
+.no-padding{
+    padding: 0 !important;
+}
+.margin-top{
+    margin-top: 2rem;
+}
+/* ======================= */
